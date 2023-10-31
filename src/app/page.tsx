@@ -8,8 +8,7 @@ export default function Page() {
       <title>Jay.Dav</title>
       <body>
         <div className="w-full h-screen bg-[url(images/nightraleigh.png)] bg-cover bg-center">
-          wassup
-          <div></div>
+          <div className="px-[10%] py-[100px]"></div>
         </div>
       </body>
     </head>
