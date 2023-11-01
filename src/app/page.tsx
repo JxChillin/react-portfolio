@@ -15,7 +15,7 @@ export default function Page() {
           {/* Change above to background image component */}
           {/* Header Container */}
           <div className="px-[10%] py-[100px]">
-            <div className="text-base mt-[25%] color-white ">
+            <div className=" text-base mt-[20%] color-white ">
               <Header />
             </div>
           </div>
