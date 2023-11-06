@@ -2,6 +2,8 @@ import Image from "next/image";
 import Head from "next/head";
 import headerimage from "@/app/images/nightraleigh.png";
 import Header from "./header";
+import Navbar from "./navbar";
+
 export default function Page() {
   return (
     <html>
@@ -10,6 +12,7 @@ export default function Page() {
       </head>
 
       <body>
+        <Navbar />
         {/* Header */}
         <div className="w-full h-screen bg-[url(images/nightraleigh.png)] bg-cover bg-center">
           {/* Change above to background image component */}
@@ -20,9 +23,8 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div>
-          {/* Next Section */}
-        </div>
+        <div id="About">{/* Section Start */}</div>
+        <div id="Contact">{/* Section Start */}</div>
       </body>
     </html>
   );
