@@ -14,11 +14,12 @@ export default function Page() {
       <body>
         <Navbar />
         {/* Header */}
-        <div className="w-full h-screen bg-[url(images/nightraleigh.png)] bg-cover bg-center">
+        {/* <div className="w-full h-screen bg-[url(images/nightraleigh.png)] bg-cover bg-center"> */}
+        <div className="w-full h-screen bg-dark-gray bg-cover bg-center">
           {/* Change above to background image component */}
           {/* Header Container */}
           <div className="px-[10%] py-[100px]">
-            <div className=" text-base mt-[20%] color-white ">
+            <div className=" mt-[20%]">
               <Header />
             </div>
           </div>
