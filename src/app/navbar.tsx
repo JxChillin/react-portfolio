@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="fixed left-1/2 transform -translate-x-1/2 top-10 w-fit bg-opacity-60 bg-black rounded-lg p-4 text-white">
+    <nav
+      className="fixed left-1/2 transform -translate-x-1/2 
+    top-10 w-fit bg-opacity-60 bg-black rounded-lg p-4 text-white"
+    >
       <div className="container mx-auto flex justify-between items-center">
         <ul className="flex space-x-4">
           <li className="hover:underline cursor-pointer">Home</li>
