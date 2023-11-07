@@ -18,9 +18,9 @@ function NavbarFixed() {
           <Link href="/contact">
             <li className="hover:underline">Contact</li>
           </Link>
-          {/* <Link href="/about">
-            <li className="hover:underline">Contact</li>
-          </Link> */}
+          <Link href="/about">
+            <li className="hover:underline">about</li>
+          </Link>
         </ul>
       </div>
     </nav>
