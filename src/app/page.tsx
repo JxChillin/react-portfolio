@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Head from "next/head";
 import headerimage from "@/app/images/nightraleigh.png";
-import Header from "./header";
-import Navbar from "./navbar";
+import Header from "./components/header";
+import NavbarFixed from "./components/navbarfixed";
 
 export default function Page() {
   return (
@@ -12,11 +12,8 @@ export default function Page() {
       </head>
 
       <body>
-        <Navbar />
-        {/* Header */}
-        {/* <div className="w-full h-screen bg-[url(images/nightraleigh.png)] bg-cover bg-center"> */}
+        <NavbarFixed />
         <div className="w-full h-screen bg-dark-gray bg-cover bg-center">
-          {/* Change above to background image component */}
           {/* Header Container */}
           <div className="px-[10%] py-[100px]">
             <div className=" mt-[20%]">
