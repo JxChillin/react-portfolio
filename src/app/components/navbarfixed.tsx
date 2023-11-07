@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Contact from "../../../pages/contact";
+import Home from "../page";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 function NavbarFixed() {
   return (
