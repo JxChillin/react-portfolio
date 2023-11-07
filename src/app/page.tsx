@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Head from "next/head";
 import headerimage from "@/app/images/nightraleigh.png";
-import Header from "./components/header";
-import NavbarFixed from "./components/navbarfixed";
+import Header from "../../components/header";
+import NavbarFixed from "../../components/navbarfixed";
 
 export default function Page() {
   return (
