@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <NavbarFixed />
-      <div>About Page</div>
+      <div className="">About Page</div>
     </div>
   );
 }

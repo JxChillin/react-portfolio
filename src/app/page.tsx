@@ -7,9 +7,9 @@ import NavbarFixed from "../../components/navbarfixed";
 export default function Page() {
   return (
     <html>
-      <head>
+      <Head>
         <title>Jay.Dav</title>
-      </head>
+      </Head>
 
       <body>
         <NavbarFixed />
