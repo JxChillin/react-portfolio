@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 /* not needed */
+/* Background color */
+Html {
+    background-color: #56585d;
+}

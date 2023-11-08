@@ -6,13 +6,8 @@ import NavbarFixed from "./components/navbarfixed";
 
 export default function Home() {
   return (
-    <main>
-      <Head>
-        <title>Jay.Dav</title>
-      </Head>
-      {/* <Link href="/Contact">Contact</Link> */}
-      {/* <NavbarFixed /> */}
-      <div className="w-full h-screen bg-dark-gray bg-cover bg-center">
+    <main className="">
+      <div className="">
         {/* Header Container */}
         <div className="px-[10%] py-[100px]">
           <div className=" mt-[20%]">
