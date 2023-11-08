@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 //import Contact from "../pages/contact";
-//import Home from "../src/app/page";
+import Home from "../page";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 function NavbarFixed() {
@@ -19,7 +19,7 @@ function NavbarFixed() {
             <li className="hover:underline">Contact</li>
           </Link>
           <Link href="/about">
-            <li className="hover:underline">Contact</li>
+            <li className="hover:underline">About</li>
           </Link>
         </ul>
       </div>
