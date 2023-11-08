@@ -3,7 +3,7 @@ import NavbarFixed from "../components/navbarfixed";
 export default function Page() {
   return (
     <div>
-      <NavbarFixed />
+      {/* <NavbarFixed /> */}
       <div className="">Contact Page</div>
     </div>
   );

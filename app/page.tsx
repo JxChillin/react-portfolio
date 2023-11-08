@@ -11,7 +11,7 @@ export default function Home() {
         <title>Jay.Dav</title>
       </Head>
       {/* <Link href="/Contact">Contact</Link> */}
-      <NavbarFixed />
+      {/* <NavbarFixed /> */}
       <div className="w-full h-screen bg-dark-gray bg-cover bg-center">
         {/* Header Container */}
         <div className="px-[10%] py-[100px]">
