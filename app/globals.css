@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 /* not needed */
-/* Background color */
+/*Entire Document styles*/
 Html {
     background-color: #56585d;
+    font-family: "Roboto Mono", monospace;
 }
