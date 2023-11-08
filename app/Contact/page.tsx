@@ -1,6 +1,6 @@
 import NavbarFixed from "../components/navbarfixed";
 
-export default function Contact() {
+export default function Page() {
   return (
     <div>
       <NavbarFixed />

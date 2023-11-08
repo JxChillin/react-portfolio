@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./components/header";
 import Head from "next/head";
+import Link from "next/link";
 import NavbarFixed from "./components/navbarfixed";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Jay.Dav</title>
       </Head>
+      {/* <Link href="/Contact">Contact</Link> */}
       <NavbarFixed />
       <div className="w-full h-screen bg-dark-gray bg-cover bg-center">
         {/* Header Container */}

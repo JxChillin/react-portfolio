@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Contact from "../pages/contact";
+import Contact from "../Contact/page";
 import Home from "../page";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
@@ -15,10 +15,10 @@ function NavbarFixed() {
           <Link href="/">
             <li>Home</li>
           </Link>
-          <Link href="/contact">
+          <Link href="/Contact">
             <li>Contact</li>
           </Link>
-          <Link href="/about">
+          <Link href="/About">
             <li>About</li>
           </Link>
         </ul>
