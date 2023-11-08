@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-//import Contact from "../pages/contact";
+import Contact from "../pages/contact";
 import Home from "../page";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
@@ -13,13 +13,13 @@ function NavbarFixed() {
         </Link> */}
         <ul className="flex space-x-4">
           <Link href="/">
-            <li className="hover:underline">Home</li>
+            <li>Home</li>
           </Link>
           <Link href="/contact">
-            <li className="hover:underline">Contact</li>
+            <li>Contact</li>
           </Link>
           <Link href="/about">
-            <li className="hover:underline">About</li>
+            <li>About</li>
           </Link>
         </ul>
       </div>
