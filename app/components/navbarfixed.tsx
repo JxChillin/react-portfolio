@@ -8,18 +8,18 @@ function NavbarFixed() {
         {/* <Link href="/">
           <a className="text-2xl font-bold">Your Logo</a>
         </Link> */}
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-8 ">
           <Link className="" href="/">
             <li>
-              <button>Home</button>
+              <button className="hover:text-[d4a373]">Home</button>
             </li>
           </Link>
-          <Link className="" href="/Contact">
+          <Link className="hover:text-[d4a373]" href="/Contact">
             <li>
               <button>Contact</button>
             </li>
           </Link>
-          <Link className="" href="/About">
+          <Link className="hover:text-[d4a373]" href="/About">
             <li>
               <button>About</button>
             </li>

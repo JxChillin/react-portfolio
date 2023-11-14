@@ -10,13 +10,9 @@ export default function Home() {
       <div className="">
         {/* Header Container */}
         <div className="px-[10%] py-[100px]">
-          <div className=" mt-[20%]">
-            <Header />
-          </div>
+          <div className=" mt-[20%]">{/* <Header /> */}</div>
         </div>
       </div>
-      <div id="About">{/* Section Start */}</div>
-      <div id="Contact">{/* Section Start */}</div>
     </main>
   );
 }
