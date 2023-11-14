@@ -9,14 +9,20 @@ function NavbarFixed() {
           <a className="text-2xl font-bold">Your Logo</a>
         </Link> */}
         <ul className="flex space-x-4">
-          <Link className="hover:animate-bounce" href="/">
-            <li>Home</li>
+          <Link className="" href="/">
+            <li>
+              <button>Home</button>
+            </li>
           </Link>
-          <Link className="hover:animate-bounce" href="/Contact">
-            <li>Contact</li>
+          <Link className="" href="/Contact">
+            <li>
+              <button>Contact</button>
+            </li>
           </Link>
-          <Link className="hover:animate-bounce" href="/About">
-            <li>About</li>
+          <Link className="" href="/About">
+            <li>
+              <button>About</button>
+            </li>
           </Link>
         </ul>
       </div>
