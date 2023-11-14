@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import NavbarFixed from "./components/navbarfixed";
+import Navbar from "./components/navbar";
 
 export const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
@@ -27,8 +28,9 @@ export default function RootLayout({
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&style=italic&display=swap"
         rel="stylesheet"
       />
-      <NavbarFixed />
-      <main>{children}</main>
+      <Navbar />
+      {/* <NavbarFixed /> */}
+      <main className="mt-[150px] mx-[300px]">{children}</main>
       {/* footer here */}
     </div>
   );

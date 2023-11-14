@@ -1,5 +1,5 @@
-import React from "react";
-//import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import Link from "next/link";
 
 // Dynamic Navbar
 function Navbar() {
@@ -10,10 +10,23 @@ function Navbar() {
     >
       <div className="container mx-auto flex justify-between items-center">
         <ul className="flex space-x-4">
-          <li className="hover:underline cursor-pointer">Home</li>
-          <li className="hover:underline cursor-pointer">About</li>
-          <li className="hover:underline cursor-pointer">Services</li>
-          <li className="hover:underline cursor-pointer">Contact</li>
+          <Link className="" href="/">
+            <li>
+              <button className="hover:text-[a9d6e5] ">Home</button>
+            </li>
+          </Link>
+          <Link className="hover:text-[a9d6e5]" href="/Experience">
+            <li>
+              <button>Experience</button>
+            </li>
+          </Link>
+          <Link className="hover:text-[a9d6e5]" href="/Contact">
+            <li>
+              <button>Contact</button>
+            </li>
+          </Link>
+
+          {/* <button className="hover:text-[d4a373]">icon</button> */}
         </ul>
       </div>
     </nav>
