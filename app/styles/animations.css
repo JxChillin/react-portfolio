@@ -1,0 +1,32 @@
+@keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(150%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-in-r {
+    animation: slideInFromRight 1s ease-in-out;
+    /* animation-delay: 1s;
+    animation-fill-mode: forwards;
+    overflow: hidden; */
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-150%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in-l {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
