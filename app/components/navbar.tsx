@@ -25,8 +25,6 @@ function Navbar() {
               <button>Contact</button>
             </li>
           </Link>
-
-          {/* <button className="hover:text-[d4a373]">icon</button> */}
         </ul>
       </div>
     </nav>
