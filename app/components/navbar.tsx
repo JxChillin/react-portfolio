@@ -5,11 +5,11 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav
-      className="fixed left-1/2 transform -translate-x-1/2 
-    top-10 w-fit bg-opacity-60 bg-black rounded-lg p-4 text-white"
+      className="fixed right-2 transform -translate-x-1/2 
+    top-10 w-fit bg-opacity-60 p-4 text-white righ-10"
     >
       <div className="container mx-auto flex justify-between items-center">
-        <ul className="flex space-x-4">
+        <ul className="text-[1.2rem] flex space-x-4">
           <Link className="" href="/">
             <li>
               <button className="hover:text-[a9d6e5] ">Home</button>

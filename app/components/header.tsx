@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className=" p-6 rounded-[15px] ">
-      <h1 className="text-[60px] text-white">
+    <div className="p-4 ">
+      <h1 className="pl-10 text-[3rem] text-white">
         {/* Adjust the font for this */}
         Jaylen
       </h1>
