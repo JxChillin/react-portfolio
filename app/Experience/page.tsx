@@ -1,5 +1,5 @@
 import NavbarFixed from "../components/navbarfixed";
-import "../styles/animations.css";
+import "../styles/styling.css";
 
 export default function About() {
   return (
