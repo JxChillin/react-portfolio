@@ -1,16 +1,7 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import NavbarFixed from "./components/navbarfixed";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
-
-export const roboto_mono = Roboto_Mono({
-  subsets: ["latin"],
-  display: "swap",
-  style: "italic",
-  weight: "700",
-});
 
 export const metadata: Metadata = {
   title: "JayDav",

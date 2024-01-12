@@ -1,4 +1,5 @@
-import "./styles/styling.css";
+// import "./styles/styling.css";
+import "./globals.css";
 import Image from "next/image";
 import Headshot from "./Images/Headshot.png";
 
