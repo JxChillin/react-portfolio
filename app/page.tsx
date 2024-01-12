@@ -22,6 +22,7 @@ export default function Home() {
           className=" transition-all 
         duration-1000 ease-in-out animate-slide-in-r"
         >
+          <h1>About Me</h1>
           Insert Experience Insert Experience Insert Experience Insert
           Experience Insert Experience Insert Experience
         </div>
